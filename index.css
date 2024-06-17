@@ -1,0 +1,25 @@
+.container {
+  
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: repeat(3, 1fr);
+  /*grid-template-rows: 40px auto 40px;*/
+  justify-items: stretch;
+}
+
+.header {
+  grid-column: 1 /4;
+}
+
+.menu {
+  grid-row: 2 / 4;
+
+}
+
+.content-1 {
+  grid-column: 2 /4;
+}
+
+.footer {
+  grid-column: 1 / 4;
+}
